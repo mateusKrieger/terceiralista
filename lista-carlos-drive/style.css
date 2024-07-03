@@ -1,0 +1,83 @@
+body{
+    background-image: url('circulo-azul-abstrato-na-tecnologia-de-fundo-preto_1142-9770.avif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+.navbar-link:hover {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-link:active {
+    background-color: #666;
+    text-align: center;
+}
+
+.navbar-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-link {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+#voltar{
+    background-color: white;
+    color: black;
+}
